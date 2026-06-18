@@ -13,9 +13,9 @@
 body{
     background:var(--bg);
     color:var(--white);
-    overflow:hidden;
     font-family:'Special Elite', monospace;
 }
+
 
 /* Background */
 
