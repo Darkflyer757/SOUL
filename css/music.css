@@ -92,3 +92,16 @@
 
     text-decoration:none;
 }
+
+.sidebar nav a.active{
+    color:var(--red);
+}
+
+.sidebar-doodle{
+
+    color:var(--red);
+
+    font-size:2rem;
+
+    margin-bottom:60px;
+}

@@ -241,28 +241,34 @@ body{
     left:0;
     top:0;
 
-    width:240px;
+    width:320px;
     height:100vh;
 
     padding:50px 30px;
 
-    background:rgba(0,0,0,.4);
+   background:
+   linear-gradient(
+    to bottom,
+    rgba(5,5,5,.9),
+    rgba(5,5,5,.75)
+    );
 
     backdrop-filter:blur(6px);
 
     border-right:
-    1px solid rgba(255,255,255,.05);
+    1px solid rgba(161,0,18,.15);
 }
 
 .logo{
+    font-family:'Cormorant Garamond', serif;
 
-    font-family:
-    'Cormorant Garamond',
-    serif;
+    font-size:5rem;
 
-    font-size:3rem;
+    font-weight:300;
 
-    margin-bottom:60px;
+    letter-spacing:.15em;
+
+    margin-bottom:100px;
 }
 
 .logo span{
