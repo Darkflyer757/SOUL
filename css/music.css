@@ -1,0 +1,94 @@
+.music-page{
+
+    margin-left:240px;
+
+    padding:80px;
+
+    min-height:100vh;
+}
+
+.music-page h1{
+
+    font-family:
+    'Cormorant Garamond',
+    serif;
+
+    font-size:5rem;
+
+    font-weight:300;
+
+    margin-bottom:60px;
+}
+
+.song-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(300px,1fr));
+
+    gap:40px;
+}
+
+.song{
+
+    padding:25px;
+
+    border:
+    1px solid rgba(255,255,255,.05);
+
+    background:
+    rgba(255,255,255,.02);
+
+    transform:rotate(-2deg);
+
+    transition:.3s;
+}
+
+.song:nth-child(2){
+
+    transform:rotate(2deg);
+}
+
+.song:hover{
+
+    transform:
+    rotate(0deg)
+    translateY(-5px);
+}
+
+.cover{
+
+    width:100%;
+    aspect-ratio:1;
+
+    background:
+    linear-gradient(
+    135deg,
+    #111,
+    #222
+    );
+
+    margin-bottom:20px;
+}
+
+.song h2{
+
+    margin-bottom:10px;
+}
+
+.song p{
+
+    line-height:1.8;
+
+    opacity:.8;
+
+    margin-bottom:20px;
+}
+
+.song a{
+
+    color:var(--red);
+
+    text-decoration:none;
+}

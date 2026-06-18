@@ -233,3 +233,78 @@ body{
 
 }
 
+/* Sidebar */
+
+.sidebar{
+    position:fixed;
+
+    left:0;
+    top:0;
+
+    width:240px;
+    height:100vh;
+
+    padding:50px 30px;
+
+    background:rgba(0,0,0,.4);
+
+    backdrop-filter:blur(6px);
+
+    border-right:
+    1px solid rgba(255,255,255,.05);
+}
+
+.logo{
+
+    font-family:
+    'Cormorant Garamond',
+    serif;
+
+    font-size:3rem;
+
+    margin-bottom:60px;
+}
+
+.logo span{
+    color:var(--red);
+}
+
+.sidebar nav{
+    display:flex;
+    flex-direction:column;
+
+    gap:20px;
+}
+
+.sidebar nav a{
+
+    text-decoration:none;
+
+    color:var(--white);
+
+    opacity:.7;
+
+    transition:.3s;
+}
+
+.sidebar nav a:hover{
+
+    opacity:1;
+
+    color:var(--red);
+}
+
+.sidebar-footer{
+
+    position:absolute;
+
+    bottom:40px;
+
+    max-width:150px;
+
+    color:var(--red);
+
+    font-size:.85rem;
+
+    line-height:1.8;
+}
